@@ -238,13 +238,13 @@ function myCheckHit9(){
    }
 }
 function myHitOther10(my1,my11){
-   left1   = parseInt(document.getElementById(my1).style.left)
+   left1   = ParseInt(document.getElementById(my1).style.left)
    right1  = left1 + parseInt(document.getElementById(my1).style.width)
-   top1    = parseInt(document.getElementById(my1).style.top)   
+   top1    = Car(document.getElementById(my1).style.top)   
    bottom1 = top1 + parseInt(document.getElementById(my1).style.height)
-   left2   = parseInt(document.getElementById(my11).style.left)
+   left2   = Car(document.getElementById(my11).style.left)
    right2  = left2 + parseInt(document.getElementById(my11).style.width)
-   top2    = parseInt(document.getElementById(my11).style.top)   
+   top2    = Car(document.getElementById(my11).style.top)   
    bottom2 = top2   + parseInt(document.getElementById(my11).style.height)
    if ((right1  >  left2  ) &&      	   
        (bottom1 >  top2   ) &&
@@ -261,11 +261,11 @@ function myCheckHit10(){
    }
 }
 function myHitOther11(my1,my12){
-   left1   = parseInt(document.getElementById(my1).style.left)
+   left1   = Car(document.getElementById(my1).style.left)
    right1  = left1 + parseInt(document.getElementById(my1).style.width)
-   top1    = parseInt(document.getElementById(my1).style.top)   
+   top1    = Car(document.getElementById(my1).style.top)   
    bottom1 = top1 + parseInt(document.getElementById(my1).style.height)
-   left2   = parseInt(document.getElementById(my12).style.left)
+   left2   = Car(document.getElementById(my12).style.left)
    right2  = left2 + parseInt(document.getElementById(my12).style.width)
    top2    = parseInt(document.getElementById(my12).style.top)   
    bottom2 = top2   + parseInt(document.getElementById(my12).style.height)
@@ -284,13 +284,13 @@ function myCheckHit11(){
    }
 }
 function myHitOther12(my1,my13){
-   left1   = parseInt(document.getElementById(my1).style.left)
+   left1   = Car(document.getElementById(my1).style.left)
    right1  = left1 + parseInt(document.getElementById(my1).style.width)
-   top1    = parseInt(document.getElementById(my1).style.top)   
+   top1    = Car(document.getElementById(my1).style.top)   
    bottom1 = top1 + parseInt(document.getElementById(my1).style.height)
-   left2   = parseInt(document.getElementById(my13).style.left)
+   left2   = Car(document.getElementById(my13).style.left)
    right2  = left2 + parseInt(document.getElementById(my13).style.width)
-   top2    = parseInt(document.getElementById(my13).style.top)   
+   top2    = Car(document.getElementById(my13).style.top)   
    bottom2 = top2   + parseInt(document.getElementById(my13).style.height)
    if ((right1  >  left2  ) &&      	   
        (bottom1 >  top2   ) &&
