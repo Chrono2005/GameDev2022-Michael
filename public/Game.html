@@ -6,6 +6,32 @@
  <title>car racing game</title>
  
    <link rel="stylesheet" jref="Https://sdmjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+   <style type="tect/css">
+     /* add the style now to design the game */
+     body{
+       height: 100%;
+       width: 100%;
+       margin:0;
+       background:rgba(0,0,255,.4);
+       font-family: 'Josefin Sans', sans-serif;
+       background-position: center;
+     }
+     #score-div{
+     position: absolute;
+     margin-top: 20%;
+     margin-left: 10%;
+     font-size: 25px;
+     background: white;
+     color: #454545;
+     padding: 15px;
+     -webkit-box-shadow: 4px 4px 4px 1px #808080;
+     box-shadow: 4px 4px 4px 1px #808080;
+    }
+    
+    
+    
+ </style>
 </head>
 <body>
   
@@ -35,7 +61,7 @@
 
                     
  <div class="car" id="car-1">
-  <--design the other car's part like tyres galss light etc..==>
+  <!--design the other car's part like tyres galss light etc..==>
   <div class="f-glass"></div>
   <div class="f-light-1"></div>
   <div class="f-light-r"></div>
@@ -46,7 +72,7 @@
   <div class="b-glass"></div>
 </div>
 <div class="car" id="car-2">
- <--design the other car's part like tyres galss light etc..==>
+ <!--design the other car's part like tyres galss light etc..==>
   <div class="f-glass"></div>
   <div class="f-light-1"></div>
   <div class="f-light-r"></div>
@@ -57,7 +83,7 @@
   <div class="b-glass"></div>
 </div>
 <div class="car" id="car-3">
-  <--design the other car's part like tyres galss light etc..==>
+  <!--design the other car's part like tyres galss light etc..==>
   <div class="f-glass"></div>
   <div class="f-light-1"></div>
   <div class="f-light-r"></div>
@@ -66,5 +92,9 @@
   <div class="b-tyre-1"></div>
   <div class="b-tyre-r"></div>
   <div class="b-glass"></div>
- </div>
- 
+  </div>
+ <div id="restart-div">
+  <button id="restart">
+   Click to restart
+  </button>
+</div>
