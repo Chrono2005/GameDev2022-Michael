@@ -28,10 +28,76 @@
      -webkit-box-shadow: 4px 4px 4px 1px #808080;
      box-shadow: 4px 4px 4px 1px #808080;
     }
+    #score-div p{
+      height: 20px;
+      
+    }
+    /*start styling the road now*/
+    #container{
+      width: 40%;
+      height: 100vh;
+      left: 35%;
+      background: #333;
+      overflow: hidden;
+      position: relative;
+    }
+    .line{
+      width; 4%;
+      height; 30vh;
+      background: rgba(255, 255, 255, .8);
+      position: absolute;
+      margin-life; 48%;
+    }
+    /*style the lines of road*/
     
+    #line-1{
+      top: -150px;
+    }
+     #line-2{
+      top: 150px;
+    }
+     #line-3{
+      top: 450px;
+    }
+    /*now style the car */
+    .car {
+      position: absolute;
+      widows: 40px;
+      height: 60px;
+      border-radius: 5px;
+      webkit-box-shadow: 3px 3px 3px blink
+      box-shadow: 3px 3px 3px blink
+      
+    }
+    #car{
+      bottom: 10px;
+      left: 60%;
+      background: red;
+    }
+    .f-glass,
+    .b-glass{
+      width: 60%;
+      height; 20%;
+      background: #484848;
+      position: absolute;
+      margin-left: 20%;
+    }
+    .f-glass{
+      top: 15px;
+      border-radius: 5px 5px 0 0; 
+    }
+    .b-glass{
+      bottom: 15px;
+      border-radius: 0 0 5px 5px;
+    }
+    .f-light-1,
+    .-blight-r{
     
+    }
     
- </style>
+   
+   
+    </style>
 </head>
 <body>
   
@@ -40,6 +106,7 @@
   <span>score :</span>
   <span id="score">0</span>
  </div>
+ <div id="container">
  
  
  <!--start to make the road-->
